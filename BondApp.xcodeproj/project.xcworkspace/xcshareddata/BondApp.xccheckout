@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>72EA296E-F461-4FD7-9898-2FDD50C2373B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>BondApp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5DE3AB61DBCEA0369A10E3C22C4F8795B3407548</key>
+		<string>https://github.com/djriefler/Bond.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>BondApp.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5DE3AB61DBCEA0369A10E3C22C4F8795B3407548</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/djriefler/Bond.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5DE3AB61DBCEA0369A10E3C22C4F8795B3407548</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5DE3AB61DBCEA0369A10E3C22C4F8795B3407548</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Bond</string>
+		</dict>
+	</array>
+</dict>
+</plist>
