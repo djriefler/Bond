@@ -9,11 +9,16 @@
 /* Begin PBXBuildFile section */
 		7E7B5F851A26244600E23888 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7B5F841A26244600E23888 /* main.m */; };
 		7E7B5F881A26244600E23888 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7B5F871A26244600E23888 /* AppDelegate.m */; };
-		7E7B5F8B1A26244600E23888 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7B5F8A1A26244600E23888 /* ViewController.m */; };
+		7E7B5F8B1A26244600E23888 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7B5F8A1A26244600E23888 /* LoginViewController.m */; };
 		7E7B5F8E1A26244600E23888 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E7B5F8C1A26244600E23888 /* Main.storyboard */; };
 		7E7B5F901A26244600E23888 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E7B5F8F1A26244600E23888 /* Images.xcassets */; };
 		7E7B5F931A26244600E23888 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E7B5F911A26244600E23888 /* LaunchScreen.xib */; };
 		7E7B5F9F1A26244600E23888 /* BondAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7B5F9E1A26244600E23888 /* BondAppTests.m */; };
+		7E9F83661A43859900004D1E /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E9F83651A43859900004D1E /* SignUpViewController.m */; };
+		7E9F83691A43876200004D1E /* MatchesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E9F83681A43876200004D1E /* MatchesTableViewController.m */; };
+		7E9F836C1A4387AC00004D1E /* UserProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E9F836B1A4387AC00004D1E /* UserProfileViewController.m */; };
+		7E9F836F1A43E9C700004D1E /* Connection.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E9F836E1A43E9C700004D1E /* Connection.m */; };
+		7E9F83741A43EE5900004D1E /* ConnectionStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E9F83731A43EE5900004D1E /* ConnectionStore.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +37,24 @@
 		7E7B5F841A26244600E23888 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7E7B5F861A26244600E23888 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7E7B5F871A26244600E23888 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7E7B5F891A26244600E23888 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7E7B5F8A1A26244600E23888 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7E7B5F891A26244600E23888 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		7E7B5F8A1A26244600E23888 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		7E7B5F8D1A26244600E23888 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7E7B5F8F1A26244600E23888 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7E7B5F921A26244600E23888 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		7E7B5F981A26244600E23888 /* BondAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BondAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E7B5F9D1A26244600E23888 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E7B5F9E1A26244600E23888 /* BondAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BondAppTests.m; sourceTree = "<group>"; };
+		7E9F83641A43859900004D1E /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		7E9F83651A43859900004D1E /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		7E9F83671A43876200004D1E /* MatchesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatchesTableViewController.h; sourceTree = "<group>"; };
+		7E9F83681A43876200004D1E /* MatchesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatchesTableViewController.m; sourceTree = "<group>"; };
+		7E9F836A1A4387AC00004D1E /* UserProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserProfileViewController.h; sourceTree = "<group>"; };
+		7E9F836B1A4387AC00004D1E /* UserProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserProfileViewController.m; sourceTree = "<group>"; };
+		7E9F836D1A43E9C700004D1E /* Connection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Connection.h; sourceTree = "<group>"; };
+		7E9F836E1A43E9C700004D1E /* Connection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Connection.m; sourceTree = "<group>"; };
+		7E9F83721A43EE5900004D1E /* ConnectionStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConnectionStore.h; path = ../ConnectionStore.h; sourceTree = "<group>"; };
+		7E9F83731A43EE5900004D1E /* ConnectionStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConnectionStore.m; path = ../ConnectionStore.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +98,8 @@
 			children = (
 				7E7B5F861A26244600E23888 /* AppDelegate.h */,
 				7E7B5F871A26244600E23888 /* AppDelegate.m */,
-				7E7B5F891A26244600E23888 /* ViewController.h */,
-				7E7B5F8A1A26244600E23888 /* ViewController.m */,
+				7E9F83711A43E9D500004D1E /* Controllers */,
+				7E9F83701A43E9CC00004D1E /* Model */,
 				7E7B5F8C1A26244600E23888 /* Main.storyboard */,
 				7E7B5F8F1A26244600E23888 /* Images.xcassets */,
 				7E7B5F911A26244600E23888 /* LaunchScreen.xib */,
@@ -117,6 +132,32 @@
 				7E7B5F9D1A26244600E23888 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7E9F83701A43E9CC00004D1E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7E9F83721A43EE5900004D1E /* ConnectionStore.h */,
+				7E9F83731A43EE5900004D1E /* ConnectionStore.m */,
+				7E9F836D1A43E9C700004D1E /* Connection.h */,
+				7E9F836E1A43E9C700004D1E /* Connection.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		7E9F83711A43E9D500004D1E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7E7B5F891A26244600E23888 /* LoginViewController.h */,
+				7E7B5F8A1A26244600E23888 /* LoginViewController.m */,
+				7E9F83641A43859900004D1E /* SignUpViewController.h */,
+				7E9F83651A43859900004D1E /* SignUpViewController.m */,
+				7E9F83671A43876200004D1E /* MatchesTableViewController.h */,
+				7E9F83681A43876200004D1E /* MatchesTableViewController.m */,
+				7E9F836A1A4387AC00004D1E /* UserProfileViewController.h */,
+				7E9F836B1A4387AC00004D1E /* UserProfileViewController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,8 +260,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E7B5F8B1A26244600E23888 /* ViewController.m in Sources */,
+				7E7B5F8B1A26244600E23888 /* LoginViewController.m in Sources */,
+				7E9F83741A43EE5900004D1E /* ConnectionStore.m in Sources */,
+				7E9F836F1A43E9C700004D1E /* Connection.m in Sources */,
+				7E9F83691A43876200004D1E /* MatchesTableViewController.m in Sources */,
 				7E7B5F881A26244600E23888 /* AppDelegate.m in Sources */,
+				7E9F836C1A4387AC00004D1E /* UserProfileViewController.m in Sources */,
+				7E9F83661A43859900004D1E /* SignUpViewController.m in Sources */,
 				7E7B5F851A26244600E23888 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +458,7 @@
 				7E7B5FA41A26244600E23888 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7E7B5FA51A26244600E23888 /* Build configuration list for PBXNativeTarget "BondAppTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +467,7 @@
 				7E7B5FA71A26244600E23888 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

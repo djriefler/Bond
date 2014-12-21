@@ -7,16 +7,22 @@
 //
 
 #import "AppDelegate.h"
+#import "Connection.h"
 
 @interface AppDelegate ()
 
 @end
 
 @implementation AppDelegate
-
+{
+    NSMutableArray * _connections;
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    _connections = [[NSMutableArray alloc] init];
+    
+    
+    
     return YES;
 }
 
